@@ -29,4 +29,4 @@ async def xronzen(ctx):
   await ctx.send("```yaml\nxronzen@proton.me\n```")
 
 
-bot.run(YOUR TOKEN)
+bot.run("YOUR TOKEN")
