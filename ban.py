@@ -10,6 +10,7 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
+#Notifies you when the bot runs
 @bot.event
 async def on_ready():
     print("I'm ready!")
