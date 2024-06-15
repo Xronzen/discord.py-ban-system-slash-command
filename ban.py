@@ -27,3 +27,6 @@ async def ban(interaction: discord.Interaction, member: discord.Member, reason: 
 bot.command()
 async def xronzen(ctx):
   await ctx.send("```yaml\nxronzen@proton.me\n```")
+
+
+bot.run(YOUR TOKEN)
