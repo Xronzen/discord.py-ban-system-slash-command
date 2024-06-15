@@ -29,5 +29,5 @@ bot.command()
 async def xronzen(ctx):
   await ctx.send("```yaml\nxronzen@proton.me\n```")
 
-
+#Paste your own token where it writing "YOUR TOKEN"
 bot.run("YOUR TOKEN")
