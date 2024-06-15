@@ -23,7 +23,7 @@ async def ban(interaction: discord.Interaction, member: discord.Member, reason: 
     await member.ban(reason=reason)
     await interaction.response.send_message(f"`{member.name}` was banned because `{reason}`.")
 
-#My mail write !xronzen
+#My mail, write !xronzen
 bot.command()
 async def xronzen(ctx):
   await ctx.send("```yaml\nxronzen@proton.me\n```")
