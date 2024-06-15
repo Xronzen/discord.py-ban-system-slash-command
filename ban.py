@@ -8,7 +8,7 @@ from discord import app_commands, utils
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
