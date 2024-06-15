@@ -4,7 +4,7 @@ from discord import app_commands
 from discord.ext.commands import has_permissions, MissingPermissions
 from discord import app_commands, utils
 
-
+#Intents is important for "!" command example if you write !xronzen bot give you my mail
 intents = discord.Intents.default()
 intents.message_content = True
 
