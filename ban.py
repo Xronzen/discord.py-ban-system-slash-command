@@ -16,12 +16,12 @@ async def on_ready():
 
 
 @bot.tree.command(name="ban", description="Ban User.")
-@app_commands.describe(member = "Ban a user")
+@app_commands.describe(member = "Ban a user.")
 @app_commands.describe(reason = "Ban reason.")
 @app_commands.checks.has_permissions(ban_members=True)
 async def ban(interaction: discord.Interaction, member: discord.Member, reason: Optional[str]):
     await member.ban(reason=reason)
-    await interaction.response.send_message(f"`{member.name}` was banned because `{reason}`")
+    await interaction.response.send_message(f"`{member.name}` was banned because `{reason}`.")
 
 #My mail write !xronzen
 bot.command()
